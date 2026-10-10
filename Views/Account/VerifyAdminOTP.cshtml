@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Xác thực hai yếu tố";
+}
+
+@* Thêm một chút CSS để căn giữa nội dung toàn trang *@
+<style>
+    .otp-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh; /* Chiều cao tối thiểu 70% của khung nhìn */
+    }
+</style>
+
+<div class="otp-container">
+    <div class="col-md-5 col-lg-4">
+        @* Dùng card để tạo một box có viền và bóng đổ, trông chuyên nghiệp hơn *@
+        <div class="card shadow-sm p-4">
+            <div class="card-body text-center">
+
+                @* Thêm một icon bảo mật *@
+                <i class="fas fa-shield-alt fa-3x text-primary mb-3"></i>
+
+                <h3 class="card-title mb-2">@ViewData["Title"]</h3>
+                <p class="text-muted">Một mã OTP đã được gửi đến email của bạn. Vui lòng nhập mã để hoàn tất đăng nhập.</p>
+
+                <form asp-action="VerifyAdminOTP" method="post" class="mt-4" id="otpForm">
+
+                    @if (ViewBag.Error != null)
+                    {
+                        <div class="alert alert-danger">@ViewBag.Error</div>
+                    }
+
+                    <div class="form-group">
+                        <label for="otpInput" class="visually-hidden">Mã OTP</label>
+                        <input type="text" id="otpInput" name="otpInput" class="form-control form-control-lg text-center"
+                               placeholder="------" autocomplete="off"
+                               maxlength="6" inputmode="numeric" pattern="[0-9]{6}" required />
+                    </div>
+
+                    <div class="d-grid gap-2 mt-3">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                            Xác nhận
+                        </button>
+                    </div>
+                </form>
+
+                <div class="mt-4 text-center">
+                    <small class="text-muted">
+                        Không nhận được mã? Hãy kiểm tra thư mục Spam (Thư rác)
+                        <br>hoặc <a href="#">gửi lại mã</a>.
+                    </small>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Thêm hiệu ứng loading cho nút bấm để tránh người dùng nhấn nhiều lần
+        document.getElementById('otpForm').addEventListener('submit', function () {
+            var button = this.querySelector('button[type="submit"]');
+            var spinner = button.querySelector('.spinner-border');
+
+            // Vô hiệu hóa nút và hiển thị spinner
+            button.disabled = true;
+            spinner.classList.remove('d-none');
+        });
+    </script>
+}

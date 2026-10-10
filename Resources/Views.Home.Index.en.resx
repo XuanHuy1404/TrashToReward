@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Biến rác thải thành phần thưởng - Vì một môi trường xanh sạch đẹp" xml:space="preserve">
+    <value>Turn trash into rewards – For a greener, cleaner environment</value>
+  </data>
+  <data name="Bảo mật thông tin" xml:space="preserve">
+    <value>Secure Information</value>
+  </data>
+  <data name="Bảo vệ môi trường" xml:space="preserve">
+    <value>Protect the Environment</value>
+  </data>
+  <data name="Chai lọ thủy tinh các loại" xml:space="preserve">
+    <value>Glass bottles and jars</value>
+  </data>
+  <data name="Chai nhựa, hộp nhựa, túi nilon sạch" xml:space="preserve">
+    <value>Plastic bottles, containers, clean plastic bags</value>
+  </data>
+  <data name="Các loại rác chúng tôi thu gom" xml:space="preserve">
+    <value>Types of Trash We Collect</value>
+  </data>
+  <data name="Cùng chung tay xây dựng một hệ sinh thái tái chế bền vững" xml:space="preserve">
+    <value>Let’s build a sustainable recycling ecosystem together</value>
+  </data>
+  <data name="Cùng nhau hợp tác vì một tương lai xanh" xml:space="preserve">
+    <value>Cooperate for a greener future</value>
+  </data>
+  <data name="Cộng đồng thân thiện" xml:space="preserve">
+    <value>Friendly Community</value>
+  </data>
+  <data name="Dễ dàng sử dụng" xml:space="preserve">
+    <value>Easy to Use</value>
+  </data>
+  <data name="Giấy" xml:space="preserve">
+    <value>Paper</value>
+  </data>
+  <data name="Giấy in, báo, tạp chí, thùng carton" xml:space="preserve">
+    <value>Printed paper, newspapers, magazines, cartons</value>
+  </data>
+  <data name="Góp phần giảm thiểu rác thải ra môi trường và thúc đẩy tái chế hiệu quả, giảm lượng rác chôn lấp." xml:space="preserve">
+    <value>Help reduce waste and promote effective recycling, minimizing landfill usage.</value>
+  </data>
+  <data name="Hãy là một phần của cộng đồng TrashToRewards và cùng chung tay bảo vệ môi trường!" xml:space="preserve">
+    <value>Be part of the TrashToRewards community and protect the environment together!</value>
+  </data>
+  <data name="Kg rác đã thu gom" xml:space="preserve">
+    <value> Kg of Trash Collected</value>
+  </data>
+  <data name="Khác" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Không có cam kết bắt buộc" xml:space="preserve">
+    <value>No Obligations</value>
+  </data>
+  <data name="Kim loại" xml:space="preserve">
+    <value>Metal</value>
+  </data>
+  <data name="Lon nhôm, sắt vụn, đồ kim loại nhỏ" xml:space="preserve">
+    <value>Aluminum cans, scrap metal, small items</value>
+  </data>
+  <data name="Lợi ích khi tham gia" xml:space="preserve">
+    <value>Benefits of Joining</value>
+  </data>
+  <data name="Mỗi loại rác sẽ có giá trị quy đổi điểm khác nhau" xml:space="preserve">
+    <value>Each type of trash has a different point value</value>
+  </data>
+  <data name="Người tham gia" xml:space="preserve">
+    <value>Participants</value>
+  </data>
+  <data name="Nhận quà hấp dẫn" xml:space="preserve">
+    <value>Get Exciting Rewards</value>
+  </data>
+  <data name="Nhựa" xml:space="preserve">
+    <value>Plastic</value>
+  </data>
+  <data name="Pin &amp; Điện tử" xml:space="preserve">
+    <value>Batteries &amp; Electronics</value>
+  </data>
+  <data name="Pin đã qua sử dụng, thiết bị điện tử cũ" xml:space="preserve">
+    <value>Used batteries, old electronics</value>
+  </data>
+  <data name="Quy trình đơn giản" xml:space="preserve">
+    <value>Simple Process</value>
+  </data>
+  <data name="Quy trình đơn giản, thuận tiện từ việc đăng ký đến đổi quà với nền tảng công nghệ hiện đại." xml:space="preserve">
+    <value>Simple and convenient process from registration to reward redemption using modern technology.</value>
+  </data>
+  <data name="Quà đã trao" xml:space="preserve">
+    <value>Rewards Given</value>
+  </data>
+  <data name="Tham gia cộng đồng những người có cùng mục tiêu bảo vệ môi trường và phát triển bền vững." xml:space="preserve">
+    <value>Join a community of people with the same goal of protecting the environment and promoting sustainability.</value>
+  </data>
+  <data name="Theo dõi lượng rác đã thu gom và tác động tích cực của bạn đối với môi trường qua thống kê trực quan." xml:space="preserve">
+    <value>Monitor the amount of collected trash and your environmental impact through visual statistics.</value>
+  </data>
+  <data name="Theo dõi đóng góp" xml:space="preserve">
+    <value>Track Contributions</value>
+  </data>
+  <data name="Thủy tinh" xml:space="preserve">
+    <value>Glass</value>
+  </data>
+  <data name="TrashToRewards" xml:space="preserve">
+    <value>TrashToRewards</value>
+  </data>
+  <data name="Tìm hiểu thêm" xml:space="preserve">
+    <value>Learn More</value>
+  </data>
+  <data name="Vải, đồ gỗ nhỏ, cao su và các loại khác" xml:space="preserve">
+    <value>Fabric, small wood items, rubber, etc.</value>
+  </data>
+  <data name="Điểm thu gom" xml:space="preserve">
+    <value>Collection Points</value>
+  </data>
+  <data name="Đã có tài khoản?" xml:space="preserve">
+    <value>Already have an account?</value>
+  </data>
+  <data name="Đăng ký miễn phí" xml:space="preserve">
+    <value>Free Registration</value>
+  </data>
+  <data name="Đăng ký ngay" xml:space="preserve">
+    <value>Register Now</value>
+  </data>
+  <data name="Đăng ký tham gia ngay" xml:space="preserve">
+    <value>Join Now</value>
+  </data>
+  <data name="Đăng nhập" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Đối tác của chúng tôi" xml:space="preserve">
+    <value>Our Partners</value>
+  </data>
+  <data name="Đổi rác thải tái chế lấy điểm thưởng và đổi thành nhiều phần quà có giá trị từ các đối tác uy tín." xml:space="preserve">
+    <value>Exchange recyclable waste for points and valuable gifts from trusted partners.</value>
+  </data>
+</root>
